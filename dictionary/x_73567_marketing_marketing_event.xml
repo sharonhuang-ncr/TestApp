@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Marketing Event" max_length="40" name="x_73567_marketing_marketing_event" type="collection">
+        <element default="0" label="Budget" max_length="40" name="budget" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Budget Remaining" max_length="15" name="budget_remaining" read_only="true" type="currency"/>
+        <element choice="1" default="Dallas" label="City" max_length="40" name="city" type="choice">
+            <choice>
+                <element label="San Jose" sequence="0" value="San Jose"/>
+                <element label="Portland" sequence="1" value="Portland"/>
+                <element label="Sydney" sequence="2" value="Sydney"/>
+                <element label="Dallas" sequence="3" value="Dallas"/>
+                <element label="Kansas City" sequence="4" value="Kansas City"/>
+                <element label="London" sequence="5" value="London"/>
+            </choice>
+        </element>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Event coordinator" mandatory="true" max_length="32" name="event_coordinator" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Event Cost" max_length="15" name="event_cost" read_only="true" type="currency"/>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Attendees registered" max_length="40" name="number_of_attendees_expected" type="integer"/>
+        <element label="Max capacity" max_length="40" name="number_of_attendees_registered" type="integer"/>
+        <element label="Sponsor" max_length="40" name="sponsor" type="string"/>
+        <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <index name="index">
+            <element name="event_coordinator"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_city" label="City" language="en" table="x_73567_marketing_marketing_events_csv">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_city</element>
+            <help/>
+            <hint/>
+            <label>City</label>
+            <language>en</language>
+            <name>x_73567_marketing_marketing_events_csv</name>
+            <plural>Cities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-09-30 00:13:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>414469ab4f022200cc8a8ab18110c7fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>City</sys_name>
+            <sys_package display_value="Marketing Events Application" source="x_73567_marketing">277ac4534f022200cc8a8ab18110c73e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing Events Application">277ac4534f022200cc8a8ab18110c73e</sys_scope>
+            <sys_update_name>sys_documentation_x_73567_marketing_marketing_events_csv_u_city_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-09-30 00:13:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
